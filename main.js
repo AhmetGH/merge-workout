@@ -20,7 +20,9 @@ function TaskManager() {
   
         //console.log("Task not found!");
         //yeni konsol log ekledim
-        console.log("Strawberry");
+
+        //ikinci branch commit
+        console.log("banana");
 
   
       }
