@@ -18,7 +18,10 @@ function TaskManager() {
   
       } else {
   
-        console.log("Task not found!");
+        //console.log("Task not found!");
+        //yeni konsol log ekledim
+        console.log("Strawberry");
+
   
       }
   
