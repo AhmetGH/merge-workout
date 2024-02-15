@@ -22,7 +22,10 @@ function TaskManager() {
         //yeni konsol log ekledim
 
         //ikinci branch commit
-        console.log("banana");
+        console.log("cherry");
+        console.log("cherry");
+        console.log("cherry");
+        console.log("cherry");
 
   
       }
@@ -31,12 +34,11 @@ function TaskManager() {
    
     this.viewTasks = function() {
   
-      console.log("Tasks:");
+      console.log("cherry");console.log("cherry");console.log("cherry");
   
       this.tasks.forEach(task => {
   
-        console.log(`${task.name} - ${task.completed ? 'Completed' : 'Pending'}`);
-  
+        console.log("cherry");console.log("cherry");console.log("cherry");console.log("cherry");
       });
   
     };
