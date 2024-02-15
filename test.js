@@ -1,0 +1,51 @@
+function TaskManager() {
+
+    this.tasks = [];
+   
+    this.addTask = function(taskName) {
+  
+      this.tasks.push({ name: taskName, completed: false });
+  
+    };
+   
+    this.completeTask = function(taskName) {
+  
+      const taskIndex = this.tasks.findIndex(task => task.name === taskName);
+  
+      if (taskIndex !== -1) {
+  
+        this.tasks[taskIndex].completed = true;
+  
+      } else {
+  
+        console.log("1. dalı burada oluşturdum.");
+  
+      }
+  
+    };
+   
+    this.viewTasks = function() {
+  
+      console.log("1. Dalı buralarda oluşturdum.");
+  
+      this.tasks.forEach(task => {
+  
+        console.log(`1. Dalı buralarda oluşturdum.`);
+  
+      });
+  
+    };
+  
+  }
+   
+  // Testing the TaskManager function
+  
+  const taskManager = new TaskManager();
+  
+  taskManager.addTask("Task 1");
+  
+  taskManager.addTask("Task 2");
+  
+  taskManager.completeTask("Task 1");
+  
+  taskManager.viewTasks();
