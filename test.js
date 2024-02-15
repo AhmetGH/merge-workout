@@ -18,8 +18,7 @@ function TaskManager() {
   
       } else {
   
-        console.log("2. Dalı guncelledim ve simdi merge işlemi yapacağım");
-        console.log("2. Dalı guncelledim ve simdi merge işlemi yapacağım");
+        console.log("1. dalı burada oluşturdum.");
   
       }
   
@@ -27,14 +26,12 @@ function TaskManager() {
    
     this.viewTasks = function() {
   
-      console.log("2. Dalı guncelledim ve simdi merge işlemi yapacağım");
-      console.log("2. Dalı guncelledim ve simdi merge işlemi yapacağım");
+      console.log("1. Dalı buralarda oluşturdum.");
   
       this.tasks.forEach(task => {
   
-        console.log("2. Dalı guncelledim ve simdi merge işlemi yapacağım");
-        console.log("2. Dalı guncelledim ve simdi merge işlemi yapacağım");
-
+        console.log(`1. Dalı buralarda oluşturdum.`);
+  
       });
   
     };
