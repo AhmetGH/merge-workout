@@ -18,7 +18,7 @@ function TaskManager() {
   
       } else {
   
-        console.log("1. dalı burada oluşturdum.");
+        console.log("1. dalı burada oluşturdum. degistiriyorum degistirdim");
   
       }
   
@@ -26,11 +26,11 @@ function TaskManager() {
    
     this.viewTasks = function() {
   
-      console.log("1. Dalı buralarda oluşturdum.");
+      console.log("1. dalı burada oluşturdum. degistiriyorum degistirdim");
   
       this.tasks.forEach(task => {
   
-        console.log(`1. Dalı buralarda oluşturdum.`);
+        console.log(`1. dalı burada oluşturdum. degistiriyorum degistirdim`);
   
       });
   
